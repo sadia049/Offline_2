@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+
+    tools:context=".MainActivity">
+   <ImageView
+       android:id="@+id/image1"
+       android:layout_width="match_parent"
+       android:layout_height="180dp"
+       android:src="@drawable/original"
+       android:scaleType="fitXY"
+
+
+       />
+ <TextView
+     android:layout_marginTop="30dp"
+     android:id="@+id/a"
+     android:layout_centerInParent="true"
+     android:layout_width="match_parent"
+     android:layout_height="35dp"
+     android:gravity="center"
+     android:textColor="#2196F3"
+     android:typeface="sans"
+     android:textSize="20sp"
+     android:textAllCaps="false"
+     android:textStyle="italic"
+     android:text="Add a bit of joy to your life with "
+     />
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/a"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="#2196F3"
+        android:typeface="sans"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:text=" our colourful notebooks"
+        />
+    <RelativeLayout
+        android:id="@+id/secondlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b"
+        >
+        <EditText
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Name"
+            android:backgroundTint="#D6C9C9"
+
+            />
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit1"
+            android:gravity="center"
+            android:hint="email@example.com"
+            android:backgroundTint="#D6C9C9"
+
+            />
+        <RelativeLayout
+            android:layout_below="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Get Started"
+                android:textSize="15sp"
+                android:textColor="#2196F3"
+
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

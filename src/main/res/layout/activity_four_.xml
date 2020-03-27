@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Four_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/order4"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/category"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/order"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#2196F3"
+        android:hint="Enter Category"/>
+    <EditText
+        android:id="@+id/code"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/category"
+        android:backgroundTint="#2196F3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Enter Code"/>
+    <EditText
+        android:id="@+id/amount"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/code"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#2196F3"
+        android:hint="How many?"/>
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Confirm Order"
+        android:textColor="#2196F3"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/amount"/>
+
+
+
+</RelativeLayout>
+
+
+
+
+    </LinearLayout>

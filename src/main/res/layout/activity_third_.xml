@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Third_Activity">
+    <TableRow
+      android:layout_marginTop="30dp"
+        android:background="#E8D9D9"
+
+        >
+        <TextView
+            android:paddingLeft="30dp"
+            android:text="Images"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+            android:paddingLeft="30dp"
+            android:text="Page"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:textStyle="italic"
+            android:paddingLeft="40dp"
+            android:text="price"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="Codes"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+    <TableRow
+
+        android:background="#ffff"
+
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/quotes1"
+
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="200"
+            android:textColor="#009688"
+
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="150"
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="#N1"
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+    <TableRow
+
+        android:background="#ffff"
+
+        >
+        <ImageView
+            android:src="@drawable/quotes2"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+
+
+            />
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="150"
+            android:textColor="#009688"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:textStyle="italic"
+            android:paddingLeft="40dp"
+            android:text="150"
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="#N2"
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+
+    <TableRow
+
+        android:background="#ffff"
+
+        >
+        <ImageView
+            android:src="@drawable/doodle1"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+
+
+            />
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:textColor="#009688"
+            android:text="200"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:textStyle="italic"
+            android:paddingLeft="40dp"
+            android:text="200"
+            android:textSize="20sp"
+            android:textColor="#009688"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="#F5"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#009688"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+    <TableRow
+
+        android:background="#ffff"
+
+        >
+        <ImageView
+
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:src="@drawable/doodle2"
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:textColor="#009688"
+            android:text="300"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:textStyle="italic"
+            android:paddingLeft="40dp"
+            android:textColor="#009688"
+            android:text="250"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="#S2"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#009688"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+    <TableRow
+
+        android:background="#ffff"
+
+        >
+        <ImageView
+
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/floral1"
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:textColor="#009688"
+            android:text="300"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:textStyle="italic"
+            android:paddingLeft="40dp"
+            android:textColor="#009688"
+            android:text="250"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="#S9"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#009688"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+    <TableRow
+
+        android:background="#ffff"
+
+        >
+        <ImageView
+
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/floral2"
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:textColor="#009688"
+            android:text="300"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:textStyle="italic"
+            android:paddingLeft="40dp"
+            android:textColor="#009688"
+            android:text="250"
+            android:textSize="20sp"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="#S5"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#009688"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+    <RelativeLayout
+        android:id="@+id/first">
+        <TextView
+            android:id="@+id/order"
+            android:layout_marginTop="50sp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Place Order?"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#4CAF50"
+
+            />
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/backbutton"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</TableLayout>
